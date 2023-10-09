@@ -29,7 +29,7 @@ def decrypt_data(encrypted_text: str) -> str:
     return decrypted_text
 
 
-encryption_bp = ascii_lowercase + digits + "#"
+encryption_bp = ascii_lowercase + digits
 
 encrypt = encrypt_data("cat")
 decrypt = decrypt_data("dbu")
